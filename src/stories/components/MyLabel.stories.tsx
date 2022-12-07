@@ -47,3 +47,11 @@ CustomFormColor.args = {
     size: 'h1',
     fontColor: '#5517AC'
 }
+
+// cloning component
+export const CustomBackgroundColor = Template.bind({})
+CustomBackgroundColor.args = {
+    size: 'h1',
+    fontColor: 'white',
+    backgroundColor: 'black'
+}
